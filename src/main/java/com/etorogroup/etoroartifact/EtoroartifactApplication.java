@@ -10,12 +10,12 @@ import org.springframework.context.ConfigurableApplicationContext;
 public class EtoroartifactApplication {
 
     public static void main(String[] args) {
-        // For Running
+        //* For Running *//
        // SpringApplication.run(EtoroartifactApplication.class, args);
 
-        //For debugger
-        ConfigurableApplicationContext context = SpringApplication.run(EtoroartifactApplication.class, args);
-        GlobalController globalController = context.getBean(GlobalController.class);
-        globalController.runGlobalProcess();
+        //* For debugger *//
+        //ConfigurableApplicationContext context = SpringApplication.run(EtoroartifactApplication.class, args);
+        //GlobalController globalController = context.getBean(GlobalController.class);
+        //globalController.runGlobalProcess();
     }
 }
